@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#d4a94c"/><stop offset="1" stop-color="#b98b2d"/></linearGradient></defs>
+  <rect width="800" height="220" fill="none"/>
+  <g transform="translate(30,26)"><path d="M20 92 L55 30 L88 66 L118 20 L156 80 L186 50 L226 92 Z" fill="url(#g)"/></g>
+  <text x="260" y="95" font-family="Montserrat, Poppins, Arial" font-weight="800" font-size="62" fill="url(#g)" letter-spacing="6">ROYAL</text>
+  <text x="260" y="165" font-family="Montserrat, Poppins, Arial" font-weight="700" font-size="52" fill="url(#g)" letter-spacing="5">FADE</text>
+</svg>

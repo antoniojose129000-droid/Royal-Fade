@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royal Fade | Barbería de lujo en Miami</title>
+  <meta name="description" content="Más que un corte, una experiencia con clase y actitud real.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg">
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="overlay"></div>
+    <nav class="nav">
+      <div class="brand">
+        <img src="royal-fade-logo.svg" alt="Royal Fade" class="logo">
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn-outline" href="#servicios">Servicios</a>
+        <a class="btn" href="https://antoniourribarriroyalfade.booksy.com/a/" target="_blank" rel="noopener">Reservar</a>
+      </div>
+    </nav>
+    <div class="hero-content container">
+      <h1>Más que un corte,<br class="sm"> una experiencia con clase y actitud real.</h1>
+      <p>Estilo, precisión y confianza en cada detalle.</p>
+      <div class="cta-row">
+        <a class="btn btn-lg" href="https://wa.me/13054171389?text=%C2%A1Hola%20Antonio%21%20Quiero%20agendar%20un%20corte%20contigo%2C%20%C2%BFtienes%20disponibilidad%20hoy%3F" target="_blank" rel="noopener">Reserva por WhatsApp</a>
+        <a class="btn btn-outline btn-lg" href="#servicios">Ver servicios</a>
+        <a class="btn btn-outline btn-lg" href="https://antoniourribarriroyalfade.booksy.com/a/" target="_blank" rel="noopener">Reservar en Booksy</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="about container" id="sobre-mi">
+    <div class="about-text">
+      <h2>Antonio Urribarri</h2>
+      <p class="lead">Barbero profesional con pasión por el detalle y el estilo. En Royal Fade, cada corte es identidad, presencia y energía.</p>
+      <ul class="ticks">
+        <li>Fades limpios y simétricos</li>
+        <li>Afeitado con toalla caliente</li>
+        <li>Atención personalizada</li>
+      </ul>
+    </div>
+    <div class="about-photo">
+      <img src="img/antonio-profile.jpg" alt="Antonio Urribarri - Royal Fade" class="profile">
+    </div>
+  </section>
+
+  <section class="services" id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="grid">
+        <article class="card"><h3>Fade clásico / moderno</h3><p>Transiciones limpias, simetría y detalle.</p></article>
+        <article class="card"><h3>Corte con diseño</h3><p>Líneas creativas y estilo personalizado.</p></article>
+        <article class="card"><h3>Barba y contorno</h3><p>Navaja, toalla caliente y acabado premium.</p></article>
+        <article class="card"><h3>Afeitado completo</h3><p>Experiencia tradicional, piel cuidada.</p></article>
+        <article class="card"><h3>Tinte / cobertura</h3><p>Refresca tu look o resalta tu estilo.</p></article>
+        <article class="card"><h3>Corte + barba</h3><p>Paquete completo con acabado de impacto.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery container" id="trabajos" aria-label="Galería de trabajos">
+    <div class="gallery-copy">
+      <h2>El estilo no se dice, se demuestra.</h2>
+      <p>Algunos de mis últimos cortes y fades.</p>
+    </div>
+    <div class="masonry">
+      <div class="tile"><div class="ph"></div></div>
+      <div class="tile"><div class="ph"></div></div>
+      <div class="tile"><div class="ph"></div></div>
+      <div class="tile"><div class="ph"></div></div>
+      <div class="tile"><div class="ph"></div></div>
+      <div class="tile"><div class="ph"></div></div>
+    </div>
+  </section>
+
+  <!-- Contact & Map -->
+  <section id="contacto-mapa" class="contact container" style="padding:72px 0 36px;">
+    <h2 style="margin-bottom:24px;">Ubicación y contacto</h2>
+    <div class="contact-grid">
+      <div class="map-wrap">
+        <iframe class="map-embed map-dark" src="https://www.google.com/maps?q=2282+NW+20th+St,+Miami,+FL+33142&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Mapa Royal Fade"></iframe>
+      </div>
+      <div class="contact-info">
+        <h3 class="brand-lite">ROYAL FADE</h3>
+        <ul class="contact-list">
+          <li><strong>Dirección:</strong> 2282 NW 20th St, Miami, FL 33142, Estados Unidos</li>
+          <li><strong>Teléfono:</strong> +1 (305) 417-1389</li>
+          <li><strong>Email:</strong> antoniourribarri@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section id="subscribe" class="subscribe container" style="padding:24px 0 84px;">
+    <h2 style="margin-bottom:8px;">Suscríbete</h2>
+    <p style="margin-bottom:20px;color:var(--muted);">Recibe promociones y novedades exclusivas de Royal Fade.</p>
+    <form name="royalfade-subscribe" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="subscribe-form">
+      <input type="hidden" name="form-name" value="royalfade-subscribe">
+      <p class="hidden"><label>No completar: <input name="bot-field"></label></p>
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit" class="btn btn-gold">Unirme a Royal Fade</button>
+      </div>
+      <label class="consent">
+        <input type="checkbox" required> Acepto recibir comunicaciones de Royal Fade. Podrás darte de baja cuando quieras.
+      </label>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Royal Fade — Donde el estilo se convierte en poder.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/13054171389?text=%C2%A1Hola%20Antonio%21%20Quiero%20agendar%20un%20corte%20contigo%2C%20%C2%BFtienes%20disponibilidad%20hoy%3F"
+     class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp Royal Fade">
+    <span>WhatsApp</span>
+  </a>
+
+  <script>
+    // (Optional) Future: Pixel/analytics hooks here
+  </script>
+</body>
+</html>
